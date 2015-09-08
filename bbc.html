@@ -27,11 +27,18 @@
 		
 	}
 
+	.fixedwidth2{
+		width:1266px;
+		margin:0 auto;
+		
+	}
+
+
 	#logodiv{
 		padding-top: 5px;
 		float:left;
 		padding-right: 5px;
-		border-right: solid white 1px;
+		border-right: solid #FFFFFF 1px;
 	}
 
 	#signin{
@@ -39,7 +46,7 @@
 		font-weight: bold;
 		padding: 1px 82px 12px 13px;
 		float:left;
-		border-right: solid white 1px;
+		border-right: solid #FFFFFF 1px;
 	}
 
 	#signin img{
@@ -63,7 +70,7 @@
 		list-style:none;
 		font-weight:bold;
 		float:left;
-		border-right: solid white 1px;
+		border-right: solid #FFFFFF 1px;
 		padding: 13px 16px 12px 16px;
 
 		height:100%;
@@ -72,21 +79,184 @@
 
 	#search{
 		float:left;
-
-		padding: 7px 0px 0px 10px;
-
+		padding: 9px 0px 0px 10px;
 	}
 
 	#search input{
-		height: 18px;
+		height: 21px;
 		width: 200px;
-		font-weight: bold;
-		padding-top: 2px;
+		font-weight: bolder;
+		padding-left: 3px;
+		border:none;
+		color:black;
 		background-image: url("images/magnify.png");
 		background-repeat: no-repeat;
 		background-position: center right;
+	}
+
+	.break{
+		clear:both;
 
 	}
+
+	#datebar {
+		background-color:#E7E8E1;
+		width:100%;
+		height:75px;
+	}
+
+	#datebar p{
+		color:#4A4A4A;
+		font-weight: bold;
+		font-family: arial;
+		font-size: 1.5em;	
+		float:right;
+		margin:30px 18px 5px 0px ;
+	}
+
+	#content{
+		background-color:#E7E8E1;
+		width:100%;
+		height:500px;
+		position: relative;
+
+	}
+
+
+	#HeadlineImage img{
+		width: 828px;
+		height: 460px;
+		float:left;
+	}
+
+	#HeadlineText {
+ 		z-index: 100;
+ 		position: absolute;
+  		color: white;
+  		font-size: 2.25em;
+  		font-family: arial;
+  		font-weight: bold;
+  		left: 66px;
+  		top: 296px;
+	}
+
+	#SummaryText {
+ 		z-index: 100;
+ 		position: absolute;
+  		color: #D3D3D3;
+  		font-size: 1.05em;
+  		font-family: arial;
+  		font-weight: bold;
+  		left: 66px;
+  		top: 364px;
+	}
+
+	#SummaryText2 {
+ 		z-index: 100;
+ 		position: absolute;
+  		color: #D3D3D3;
+  		font-size: 1.05em;
+  		font-family: arial;
+  		font-weight: bold;
+  		left: 66px;
+  		top: 384px;
+	}
+
+	#SummaryText3 {
+ 		z-index: 100;
+ 		position: absolute;
+  		font-size: .8em;
+  		font-family: arial;
+  		left: 66px;
+  		top: 418px;
+  		border-left: solid red 1px;
+
+	}
+
+	#SummaryText3 a{
+		color:#D3D3D3;
+		text-decoration: none;
+		padding-left: 8px;
+
+	}
+
+	#VText1 {
+ 		z-index: 100;
+ 		position: absolute;
+  		color: white;
+  		font-size: 1.5em;
+  		font-family: arial;
+  		font-weight: bold;
+  		left: 910px;
+  		top: 110px;
+	}
+
+	#VText2 {
+ 		z-index: 100;
+ 		position: absolute;
+  		color: white;
+  		font-size: 1.5em;
+  		font-family: arial;
+  		font-weight: bold;
+  		left: 910px;
+  		top: 140px;
+	}
+
+	#VText3 {
+ 		z-index: 100;
+ 		position: absolute;
+  		font-size: .8em;
+  		font-family: arial;
+  		left: 910px;
+  		top: 194px;
+  		border-left: solid purple 1px;
+
+	}
+
+	#VText3 a{
+		color:black;
+		text-decoration: none;
+		padding-left: 8px;
+
+	}
+
+	#VacationImage img{
+		width: 400px;
+		height: 227px;
+		float:left;
+		padding-left: 20px;
+	}
+
+	#FerrariImage img{
+		width: 190px;
+		height: 105px;
+		float:left;
+		padding: 10px 20px 10px 20px;
+	}
+
+	#CrisisImage img{
+		width: 190px;
+		height: 105px;
+		float:left;
+		padding: 10px 0px 0px 0px;
+	}
+
+	#ChildImage img{
+		width: 190px;
+		height: 105px;
+		float:left;
+		padding: 3px 20px 10px 20px;
+	}
+
+	#SoccerImage img{
+		width: 190px;
+		height: 105px;
+		float:left;
+		padding: 3px 0px 0px 0px;
+	}
+
+
+
  </style>
 
  </head>
@@ -121,7 +291,7 @@
  				</div>
 
  				<div id="search">
-					<input type="text" placeholder="Search">
+					<input type="text" placeholder=" Search">
 				</form>
 
 
@@ -132,6 +302,91 @@
 
 
  		</div>
+
+ 		<div class = "break"></div>
+
+ 		<div id="datebar">
+
+ 			<div class="fixedwidth2">
+ 				<p>MONDAY, 7 SEPTEMBER</p>
+ 			</div>
+
+ 		</div>
+
+
+		<div class = "break"></div>
+
+ 		<div id="content">
+
+ 			 <div class="fixedwidth2">
+
+ 			 	<div id="HeadlineImage">
+ 			 		<img src="images/migrant.png"/>
+ 			 		  <p id="HeadlineText">
+    					Migrants defy Hungary police lines
+  					  </p>
+
+  					  <p id="SummaryText">
+    					Hundreds of migrants break through police lines in Hungary and head north along a motorway, as 
+  					  </p>
+  					  <p id = "SummaryText2">
+						EU politicians continue to wrangle over the influx of asylum seekers.
+  					  </p>
+
+  					  <p id = "SummaryText3">
+						<a href="http://www.bbc.com/news/world/europe"> EUROPE</a>
+  					  </p>
+ 			 	</div>
+
+ 			 	<div id="VacationImage">
+ 			 		<img src="images/vacation.png"/>
+
+  					  <p id="VText1">
+    					Americas national vacation
+  					  </p>
+  					  <p id = "VText2">
+						problem
+  					  </p>
+  					  <p id = "VText3">
+						<a href="http://www.bbc.com/news/world/us_and_canada"> US & CANADA</a>
+  					  </p>
+
+
+ 			 	</div>
+
+ 			 	 <div id="FerrariImage">
+ 			 		<img src="images/ferrari.png"/>
+
+
+ 			 	</div>
+ 			 	 
+ 			 	 <div id="CrisisImage">
+ 			 		<img src="images/crisis.png"/>
+
+
+
+ 			 	</div>
+ 			 	 
+ 			 	 <div id="ChildImage">
+ 			 		<img src="images/child.png"/>
+
+
+
+ 			 	</div>
+ 			 	 
+ 			 	 <div id="SoccerImage">
+ 			 		<img src="images/soccer.png"/>
+
+
+
+ 			 	</div>
+
+
+
+ 			</div>
+
+ 		</div>
+
  	</div>
 
  </body>
